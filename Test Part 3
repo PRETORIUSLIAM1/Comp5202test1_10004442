@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("This program will expand a basic quadratic equation");
+            Console.WriteLine("------------(x + n)(x + m)-------------");
+            int n = 0;
+            int m = 0;
+            int b = n + m;
+            int c = n * m;
+
+
+            Console.WriteLine("Enter a +ve or -ve value for n:" n ;
+            Console.ReadLine();
+            Console.WriteLine("Enter a +ve ore -ve value for m:" m ;
+            Console.ReadKey();
+
+            
+             Console.Write("That in a stanard form is: x^2 + " + b + "x -" + c);
+             Console.Read();
+             Console.WriteLine("press enter to finish");
+             Console.ReadKey();
+            
+        }
+
+  
+         
+    }
+}
